@@ -24,6 +24,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left: 100px;
 }
 
 .App-footer {
@@ -51,7 +52,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: navy;
+  color: rgb(0, 0, 0);
+  padding-left: 100px;
 }
 
 /*Note: Some contents of nav bar retrieved from: https://codepen.io/rijdz/pen/zybbVK
@@ -104,7 +106,7 @@ a {
 }
 
 .styled-table thead tr {
-  background-color: #009879;
+  background-color: #7d7d7d;
   color: #ffffff;
   text-align: left;
 }
@@ -123,5 +125,5 @@ a {
 }
 
 .styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid #7d7d7d;
 }
