@@ -20,14 +20,14 @@ function App() {
       </header>
       <div className="App-midsection">
         <div className="Side-navbar">
-          <nav>
-            <ul>
-              <li><Link to="/">HomePage</Link></li>
-              <li><Link to="/teams">Teams</Link></li>
-              <li><Link to="/players">Players</Link></li>
-              <li><Link to="/positions">Positions</Link></li>
-              <li><Link to="/contracts">Contracts</Link></li>
-              <li><Link to="/salaries">Salaries</Link></li>
+          <nav class="mnb navbar navbar-default navbar-fixed-top">
+            <ul class="nav navbar-nav">
+              <li class="fa"><Link to="/">Home</Link></li>
+              <li class="fa"><Link to="/teams">Teams</Link></li>
+              <li class="fa"><Link to="/players">Players</Link></li>
+              <li class="fa"><Link to="/positions">Positions</Link></li>
+              <li class="fa"><Link to="/contracts">Contracts</Link></li>
+              <li class="fa"><Link to="/salaries">Salaries</Link></li>
             </ul>
           </nav>
         </div>
