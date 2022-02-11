@@ -1,26 +1,23 @@
 import React from 'react';
-import PlayerRow from './PlayerRow';
+import SalaryRow from './SalaryRow';
 
 
-function PlayerTable({ players }) {
+function SalaryTable({ salaries }) {
     return (
         <table class="styled-table">
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Birth Date</th>
-                    <th>Number</th>
-                    <th>player Team ID</th>
-                    <th>player Positions ID</th>
+                    <th>Contract ID</th>
+                    <th>Salary</th>
+                    <th>Year</th>
                 </tr>
             </thead>
             <tbody>
-                {players.map((player, i) => <PlayerRow player={player} key={i} />)}
+                {salaries.map((salary, i) => <SalaryRow salary={salary} key={i} />)}
             </tbody>
         </table>
     );
 }
 
-export default PlayerTable;
+export default SalaryTable;

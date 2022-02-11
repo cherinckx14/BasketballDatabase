@@ -1,26 +1,22 @@
 import React from 'react';
-import PlayerRow from './PlayerRow';
+import PositionRow from './PositionRow';
 
 
-function PlayerTable({ players }) {
+function PositionTable({ positions }) {
     return (
         <table class="styled-table">
             <thead>
                 <tr>
                     <th>ID</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Birth Date</th>
-                    <th>Number</th>
-                    <th>player Team ID</th>
-                    <th>player Positions ID</th>
+                    <th>Name</th>
+                    <th>Players</th>
                 </tr>
             </thead>
             <tbody>
-                {players.map((player, i) => <PlayerRow player={player} key={i} />)}
+                {positions.map((position, i) => <PositionRow position={position} key={i} />)}
             </tbody>
         </table>
     );
 }
 
-export default PlayerTable;
+export default PositionTable;

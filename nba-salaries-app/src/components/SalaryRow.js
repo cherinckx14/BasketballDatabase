@@ -1,17 +1,14 @@
 import React from 'react';
 
-function PlayerRow({ player }) {
+function SalaryRow({ salary }) {
     return (
         <tr>
-            <td>{player.player_ID}</td>
-            <td>{player.player_first_name}</td>
-            <td>{player.player_last_name}</td>
-            <td>{player.player_birth_date}</td>
-            <td>{player.player_number}</td>
-            <td>{player.player_team_ID}</td>
-            <td>{player.player_Positions_ID}</td>
+            <td>{salary.salary_ID}</td>
+            <td>{salary.salary_contract_ID}</td>
+            <td>{salary.salary_salary}</td>
+            <td>{salary.salary_year}</td>
         </tr>
     );
 }
 
-export default PlayerRow;
+export default SalaryRow;

@@ -1,17 +1,12 @@
 import React from 'react';
 
-function PlayerRow({ player }) {
+function TeamRow({ team }) {
     return (
         <tr>
-            <td>{player.player_ID}</td>
-            <td>{player.player_first_name}</td>
-            <td>{player.player_last_name}</td>
-            <td>{player.player_birth_date}</td>
-            <td>{player.player_number}</td>
-            <td>{player.player_team_ID}</td>
-            <td>{player.player_Positions_ID}</td>
+            <td>{team.team_ID}</td>
+            <td>{team.team_name}</td>
         </tr>
     );
 }
 
-export default PlayerRow;
+export default TeamRow;
