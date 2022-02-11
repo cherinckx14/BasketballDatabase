@@ -24,6 +24,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://cherinckx14.github.io/BasketballDatabase",
   "browserslist": {
     "production": [
       ">0.2%",
