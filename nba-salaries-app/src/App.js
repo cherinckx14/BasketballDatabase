@@ -11,6 +11,7 @@ import ContractsPage from './pages/ContractsPage';
 import PositionsPage from './pages/PositionsPage';
 import SalariesPage from './pages/SalariesPage';
 import TeamsPage from './pages/TeamsPage';
+import PlayerPositionsPage from './pages/PlayerPositionsPage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <li class="fa"><Link to="/teams">Teams</Link></li>
               <li class="fa"><Link to="/players">Players</Link></li>
               <li class="fa"><Link to="/positions">Positions</Link></li>
+              <li class="fa"><Link to="/playerpositions">PlayerPositions</Link></li>
               <li class="fa"><Link to="/contracts">Contracts</Link></li>
               <li class="fa"><Link to="/salaries">Salaries</Link></li>
             </ul>
@@ -37,6 +39,7 @@ function App() {
             <Route path="/teams" element={<TeamsPage />} />
             <Route path="/players" element={<PlayersPage />} />
             <Route path="/positions" element={<PositionsPage />} />
+            <Route path="/playerpositions" element={<PlayerPositionsPage />} />
             <Route path="/contracts" element={<ContractsPage />} />
             <Route path="/Salaries" element={<SalariesPage />} />
           </Routes>
