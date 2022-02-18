@@ -5,7 +5,6 @@ function PositionRow({ position }) {
         <tr>
             <td>{position.position_ID}</td>
             <td>{position.position_name}</td>
-            <td>{position.position_players}</td>
         </tr>
     );
 }

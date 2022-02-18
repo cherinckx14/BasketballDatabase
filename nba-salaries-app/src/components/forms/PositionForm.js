@@ -6,12 +6,6 @@ function PositionForm(props){
         title: 'Position Addition Form',
         fields: [
             {
-                title: "Player Name",
-                type: "text",
-                name: "playername"
-            },
-            
-            {
                 title: "Position",
                 type: "text",
                 name: "positionname"
