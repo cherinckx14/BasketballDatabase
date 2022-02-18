@@ -8,12 +8,32 @@ function PlayerPositionForm(props){
             {
                 title: "Player ID",
                 type: "text",
-                name: "PlayerID"
+                name: "playerposition_playerID"
             },
             {
-                title: "Positions ID",
+                title: "Point Guard",
                 type: "text",
-                name: "PositionsID"
+                name: "playerposition_pg"
+            },
+            {
+                title: "Shooting Guard",
+                type: "text",
+                name: "playerposition_sg"
+            },
+            {
+                title: "Small Forward",
+                type: "text",
+                name: "playerposition_sf"
+            },
+            {
+                title: "Power Forward",
+                type: "text",
+                name: "playerposition_pf"
+            },
+            {
+                title: "Center",
+                type: "text",
+                name: "playerposition_c"
             },
         ]
     }

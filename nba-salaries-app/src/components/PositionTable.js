@@ -9,7 +9,6 @@ function PositionTable({ positions }) {
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
-                    <th>Players</th>
                 </tr>
             </thead>
             <tbody>

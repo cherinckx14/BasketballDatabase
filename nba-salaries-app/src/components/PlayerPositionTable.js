@@ -8,7 +8,11 @@ function PlayerPositionTable({ playerpositions }) {
             <thead>
                 <tr>
                     <th>Player ID</th>
-                    <th>Positions ID</th>
+                    <th>Point Guard</th>
+                    <th>Shooting Guard</th>
+                    <th>Small Forward</th>
+                    <th>Power Forward</th>
+                    <th>Center</th>
                 </tr>
             </thead>
             <tbody>
