@@ -3,7 +3,7 @@ import Form from './Form';
 
 function PlayerPositionForm(props){
     let template = {
-        title: 'Player Addition Form',
+        title: 'PlayerPosition Addition Form',
         fields: [
             {
                 title: "Player ID",

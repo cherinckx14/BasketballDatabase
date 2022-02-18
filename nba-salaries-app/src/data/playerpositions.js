@@ -15,6 +15,14 @@ const playerpositions = [
         playerposition_pf: "True",
         playerposition_c: "True"
     },
+    {
+        playerposition_playerID: 3,
+        playerposition_pg: "False",
+        playerposition_sg: "True",
+        playerposition_sf: "True",
+        playerposition_pf: "False",
+        playerposition_c: "False"
+    },
 
 ];
 
