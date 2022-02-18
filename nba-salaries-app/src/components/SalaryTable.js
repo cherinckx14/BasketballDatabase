@@ -11,6 +11,8 @@ function SalaryTable({ salaries }) {
                     <th>Contract ID</th>
                     <th>Salary</th>
                     <th>Year</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                 </tr>
             </thead>
             <tbody>

@@ -10,6 +10,8 @@ function ContractTable({ contracts }) {
                     <th>ID</th>
                     <th>Player ID</th>
                     <th>Active</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                 </tr>
             </thead>
             <tbody>

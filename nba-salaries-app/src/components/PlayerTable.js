@@ -14,6 +14,8 @@ function PlayerTable({ players }) {
                     <th>Number</th>
                     <th>player Team ID</th>
                     <th>player Positions ID</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                 </tr>
             </thead>
             <tbody>

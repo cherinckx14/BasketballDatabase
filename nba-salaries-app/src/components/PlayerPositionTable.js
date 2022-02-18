@@ -13,6 +13,8 @@ function PlayerPositionTable({ playerpositions }) {
                     <th>Small Forward</th>
                     <th>Power Forward</th>
                     <th>Center</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                 </tr>
             </thead>
             <tbody>

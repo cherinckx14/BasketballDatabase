@@ -9,6 +9,8 @@ function TeamTable({ teams }) {
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
                 </tr>
             </thead>
             <tbody>
